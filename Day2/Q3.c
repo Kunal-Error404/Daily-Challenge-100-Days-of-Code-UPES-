@@ -17,7 +17,6 @@ int main(){
         printf("SIDES OF A RECTANGLE CANT BE NEGATIVE!!!");
     }
     return 0;
-
 }
 float area(int a, int b){
     return a*b;

@@ -11,6 +11,7 @@ int main(){
     printf("SUM OF THE TWO NUMBERS IS %f",sum(x,y));
     return 0;
 }
+
 float sum(float a, float b){
     return a+b;
 }
