@@ -33,8 +33,5 @@ float prod(float a, float b){
     return a*b;
 }
 float quo(float a, float b){
-   if(a>b && b != 0){
     return a/b;
-   }
- 
 }
