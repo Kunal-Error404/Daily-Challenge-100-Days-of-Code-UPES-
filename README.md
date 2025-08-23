@@ -1,5 +1,7 @@
-# Daily-Challenge-100-Days-of-Code-UPES-
-Tune in with me for 100 days to see my progress!!!!
+## Daily-Challenge-100-Days-of-Code-UPES-
+-Tune in with me for 100 days to see my progress!!!!
+-I will try to make my code as efficient as possible and will include comments wherever possible.
+
 ## 💡 Goals
 
 - Practice C programming daily.
