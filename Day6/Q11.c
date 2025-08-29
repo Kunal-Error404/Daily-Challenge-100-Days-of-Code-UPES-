@@ -13,6 +13,7 @@ void nature(int n){
     if(n%2==0){
         printf("%d IS EVEN",n);
     }
+    
     else{
         printf("%d IS ODD",n);
     }
