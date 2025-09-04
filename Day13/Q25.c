@@ -38,6 +38,10 @@ int calc(int a, int b, char c){
             return a%b;
         }
         break;
+        default:
+            printf("ERROR: Invalid operator '%c'\n", c);
+            return 0;//IF YOU WANNA PRINT A MESSAGE IN INT TYPE RETURN FUNCTION USE RETURN 0 | T-T |
+
 
     }
 }
