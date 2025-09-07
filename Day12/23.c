@@ -14,18 +14,18 @@ int main(){
 void fee(int a){
     if(a>=1){
     int late;
-    if(a>=1 && a<=4){
+    if(a>=1 && a<=5){
         late = 2*a;
         printf("YOUR FINE IS : %d",late);
 
     }
-    else if( a>=5 && a<=8){
-        late = 4*a;
+    else if( a>=6 && a<=10){
+        late = 2*5+(a-5)*4;
         printf("YOUR FINE IS : %d",late);
 
     }
-    else if(a>=9 && a<=15){
-        late = 6*a;
+    else if(a>=11 && a<=30){
+        late = 2*5+5*4+(a-10)*6;
         printf("YOUR FINE IS : %d",late);
     }
     else{
