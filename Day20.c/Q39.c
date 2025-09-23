@@ -1,4 +1,4 @@
-//Write a program to find the sum of digits of a number.
+//Write a program to find the product of odd digits of a number.
 #include <stdio.h>
 void extract(int arr[],int n,int m);
 int count(int a);
@@ -10,23 +10,20 @@ int main(){
     int arr[a];
     extract(arr,a,x);
     return 0;
-   
-
-
 }
 void extract(int arr[],int n,int m){
-    int sum = 0;
-    while(m>0){//extracting digits
+    int oddprod=1;
+    while(m>0){
         for(int i=0;i<n;i++){
-        int ldigit = m%10;
-        arr[i]=ldigit;
-        sum =sum + arr[i];//adding extracted digits in array refer q33
-        m=m/10;
+            int ldigit=m%10;
+            arr[i]=ldigit;
+            if(ldigit%2!=0){//checking if extracted digit is odd
+                oddprod=oddprod*arr[i];//storing product of odd digits
+            }
+            m=m/10;
         }
-
-    }   
-    printf("THE SUM OF DIGITS IS %d\n",sum);
-
+    }
+    printf("THE SUM OF ODD DIGITS IS %d",oddprod);
 }
 int count(int a){//counting number of digits in entered number
     int count1=0;

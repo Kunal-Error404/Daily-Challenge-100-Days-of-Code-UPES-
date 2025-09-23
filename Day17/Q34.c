@@ -27,7 +27,7 @@ void isprime(int n){
 
                 }
         
-                                }
+             }
         }
     if(isPrime==1){
         printf("THE ENTERED NUMBER IS PRIME.\n");
