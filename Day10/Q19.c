@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&y);
     printf("ENTER SIDE 3:");
     scanf("%d",&z);
-    if((x+y)>z && (y+z)>x && (x+z)>y){//CHECKING IF TRI IS VALID USING TRIANGLE INEQUALITY
+    if(((x+y)>z && (y+z)>x && (x+z)>y) && (x>0 && y>0 && z>0)){//CHECKING IF TRI IS VALID USING TRIANGLE INEQUALITY
             tri(x,y,z);
     }
     else{
