@@ -9,12 +9,12 @@ int main(){
     int l = strlen(arr);
     if(arr[l-1]=='\n'){
         arr[l-1]='\0';
-        l--;//do this whenever you remove newline
+        l--;//do this whenever you remove newline as original l included new line
     }
     int ispalindrome = 1;
     
         int start = 0;//here start and end are indexes of arr
-        int end = l-1;
+        int end = l-1;//as we need to access the index before \0
         while(end>start){
             if(tolower(arr[start])!=tolower(arr[end])){
                  ispalindrome = 0;

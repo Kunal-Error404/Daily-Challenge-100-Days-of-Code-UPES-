@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &x);
     getchar(); // this clears newline from scan
     
-    char arr[x + 1]; // +1 to account for null
+    char arr[x + 1]; // +1 to account for \0
     printf("Enter the string: ");
     fgets(arr, x + 1, stdin);
     
@@ -18,6 +18,7 @@ int main(){
     }
     
     char result = rep(arr);
+    
     if(result != '\0'){
         printf("The first repeating lowercase alphabet is: %c\n", result);
     } else {

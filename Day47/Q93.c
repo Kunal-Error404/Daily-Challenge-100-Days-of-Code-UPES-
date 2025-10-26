@@ -1,7 +1,7 @@
 //Check if two strings are anagrams of each other.
 /*
 ffor 2 strings to be anagrams:
-they should have the same characters and the same frequency of characters or i can simply sort both strings alphabetically 
+can simply sort both strings alphabetically 
 after checking the number of characters in the string and use strcmp
 */
 #include <stdio.h>
