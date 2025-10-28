@@ -32,6 +32,6 @@ void rot(char arr1[], char arr2[]){
         printf("Not Rotation\n");
     }
     else{
-        printf("Rotation\n"); //strstr checks if arr2 is substring of catenated arr1 and returns Null if substr is not found
+        printf("Rotation\n"); //strstr checks if arr2 is substring of catenated arr1 and returns Null if substr is not found ohk
     }
 }
