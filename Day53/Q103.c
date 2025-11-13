@@ -24,7 +24,7 @@ int main(){
     printf("Pivot Index: %d",pivot(arr,n));
 
     return 0;
-
+    free(arr);
 
 }
 void display(int arr[],int s){
