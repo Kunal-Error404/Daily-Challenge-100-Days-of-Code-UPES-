@@ -9,7 +9,7 @@ int main(){
         printf("Erro memory not allocated.");
         return -1;
     }
-    printf("Enter the name");
+    printf("Enter the name: ");
     fgets(name,100,stdin);
 
     int len = strlen(name);
