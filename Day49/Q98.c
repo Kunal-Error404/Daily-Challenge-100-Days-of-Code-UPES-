@@ -48,6 +48,7 @@ int main(){
         for(int k = lspacepos + 1;name[k]!='\0';k++){
             printf("%c",name[k]);
         }
+        free(name);
     return 0;
     
 }
