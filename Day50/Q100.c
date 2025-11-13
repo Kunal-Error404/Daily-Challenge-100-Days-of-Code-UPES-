@@ -22,7 +22,7 @@ int check = 1;
     for (int start = 0; start < len; start++) { // Time comp O(n^3) similar to matrix mult 
         for (int end = start; end < len; end++) {
 
-             if (!check) {//to print comma after every first substr
+             if (!check) {//to print comma after ever substr except the first one
                 printf(", ");
             }
             check = 0;
