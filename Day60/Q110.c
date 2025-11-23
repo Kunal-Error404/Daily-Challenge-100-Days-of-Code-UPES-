@@ -5,5 +5,5 @@
 #include <stdio.h>
 int main(){
     int arr[10];
-    
+    int max = 0,k=0;
 }
